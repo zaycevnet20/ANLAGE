@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+.anlage__right{
+    display: flex;
+    justify-content: flex-end;
+}
+.anlage__right__descr{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.anlage__center{
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.anlage__block{
+    display: flex;
+    justify-content: space-between;
+}
+.anlage__an{
+    margin-right: 30%;
+}
+.anlage__von ul li{
+    margin-bottom: 5px;
+}
+.anlage__an ul li{
+    margin-bottom: 5px;
+}
+.anlage__von ul .anlage__von__one{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.anlage__an ul .anlage__an__one{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.anlage__von__five{
+    font-weight: bold;
+}
+.anlage__an__five{
+    font-weight: bold;
+}
+.anlage__von__five{
+    margin-top: 20px;
+}
+.anlage__an__five{
+    margin-top: 20px;
+}
+.input__unter{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    outline: none;
+}
