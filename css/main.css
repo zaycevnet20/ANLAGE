@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: san-serif, arial;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+.anlage__right{
+    display: flex;
+    justify-content: flex-end;
+}
+.anlage__right__descr{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.anlage__center{
+    margin-top: 0;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.anlage__block{
+    display: flex;
+    justify-content: space-between;
+}
+.anlage__an{
+    margin-right: 30%;
+}
+.anlage__von ul li{
+    margin-bottom: 5px;
+}
+.anlage__an ul li{
+    margin-bottom: 5px;
+}
+.anlage__von ul .anlage__von__one{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.anlage__an ul .anlage__an__one{
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+.anlage__von__five{
+    font-weight: bold;
+}
+.anlage__an__five{
+    font-weight: bold;
+}
+.anlage__von__five{
+    margin-top: 20px;
+}
+.anlage__an__five{
+    margin-top: 20px;
+}
+.input__unter{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    outline: none;
+}
+.unter p{
+    line-height: 1px;
+}
+.anlage__von ul{
+    padding-left: 0px;
+}
+table{
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+ th {
+    padding: 10px;
+    border: 1px solid black;
+ }
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.table__descr{
+    font-size: 15px;
+}
+.berlin{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.berlin__left{
+    margin-right: 250px;
+}
+.input__berlin{
+    margin-bottom: -10px;
+}
+.vorname{
+    padding: 10px 15px;
+}
+.Passnummer{
+    padding: 10px 0px;
+}
+.Adresse{
+    padding: 10px 40px;
+}
+.Nr{
+    padding: 10px 0px;
+}
+.Verfahren{
+    padding: 10px 0px;
+}
